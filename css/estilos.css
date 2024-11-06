@@ -1,0 +1,137 @@
+/* Corpos */
+body {
+    font-family: 'Traje', sans-serif; /* Corrigido de 'sem serifa' para 'sans-serif' */
+    background-image: url("https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/jujutsu%20background.png?raw=true"); /* Corrigido de 'imagem de fundo' para 'background-image' */
+    background-repeat: no-repeat; /* Corrigido de 'sem repetição' para 'no-repeat' */
+    background-size: cover; /* Corrigido de 'tamanho-de-fundo' para 'background-size' */
+    height: 100vh; /* Corrigido de 'altura' para 'height' */
+    width: 100vw; /* Corrigido de 'largura' para 'width' */
+  }
+  
+  .cabecalho {
+    display: flex; /* Corrigido de 'exibição' para 'display' */
+    flex-direction: column; /* Corrigido de 'flex-direction: coluna' para 'column' */
+    justify-content: center; /* Corrigido de 'justificar-conteúdo' para 'justify-content' */
+    align-items: center; /* Corrigido de 'alinhar-itens' para 'align-items' */
+    padding-top: 60px; /* Corrigido de 'preenchimento-superior' para 'padding-top' */
+    margin: 15px; /* Corrigido de 'lacuna' para 'margin' */
+  }
+  
+  .cabecalho .titulo {
+    color: #f1ecff; /* Corrigido de 'cor' para 'color' */
+    font-size: 12px; /* Corrigido de 'tamanho da fonte' para 'font-size' */
+  }
+  
+  .cabecalho .logo {
+    width: 300px; /* Corrigido de 'largura' para 'width' */
+    height: auto; /* Corrigido de 'altura' para 'height' */
+  }
+  
+  .principal {
+    display: flex; /* Corrigido de 'exibição' para 'display' */
+    align-items: center; /* Corrigido de 'alinhar-itens' para 'align-items' */
+    justify-content: center; /* Corrigido de 'justificar-conteúdo' para 'justify-content' */
+    margin: 80px 0; /* Corrigido de 'lacuna' para 'margin' */
+  }
+  
+  .lista-jujutsu {
+    width: 280px; /* Corrigido de 'largura' para 'width' */
+    height: 430px; /* Corrigido de 'altura' para 'height' */
+    position: relative; /* Corrigido de 'posição' para 'position' */
+  }
+  
+  .cartao .img-card {
+    text-align: center; /* Corrigido de 'alinhamento de texto' para 'text-align' */
+  }
+  
+  .btn-seta {
+    background-color: #FFF; /* Corrigido de 'cor de fundo' para 'background-color' */
+    width: 70px; /* Corrigido de 'largura' para 'width' */
+    height: 70px; /* Corrigido de 'altura' para 'height' */
+    border-radius: 50px; /* Corrigido de 'raio da borda' para 'border-radius' */
+    border: 0; /* Corrigido de 'borda' para 'border' */
+    cursor: pointer; /* Corrigido de 'cursor: ponteiro' para 'cursor: pointer' */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Corrigido de 'caixa-sombra' para 'box-shadow' */
+  }
+  
+  .btn-seta.btn-voltar {
+    transform: rotateY(180deg); /* Corrigido de 'transformar' para 'transform' */
+  }
+  
+  .btn-seta:hover {
+    background-color: #f4cccc; /* Corrigido de 'cor de fundo' para 'background-color' */
+  }
+  
+  .cartao {
+    background-color: purple; /* Corrigido de 'cor de fundo' para 'background-color' */
+    height: 100%; /* Corrigido de 'altura' para 'height' */
+    opacity: 0; /* Corrigido de 'opacidade' para 'opacity' */
+    display: flex; /* Corrigido de 'exibição' para 'display' */
+    flex-direction: column; /* Corrigido de 'flex-direction: coluna' para 'column' */
+    justify-content: center; /* Corrigido de 'justificar-conteúdo' para 'justify-content' */
+    position: absolute; /* Corrigido de 'posição' para 'position' */
+    padding: 10px; /* Corrigido de 'preenchimento' para 'padding' */
+    border-radius: 10px; /* Corrigido de 'raio da borda' para 'border-radius' */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Corrigido de 'caixa-sombra' para 'box-shadow' */
+    transition: opacity 0.3s ease-in-out; /* Corrigido de 'transição' para 'transition' e 'entrada-saída' para 'ease-in-out' */
+  }
+  
+  .cartao.selecionado {
+    opacity: 1; /* Corrigido de 'opacidade' para 'opacity' */
+    z-index: 1; /* Corrigido de 'índice z' para 'z-index' */
+  }
+  
+  .fundo-1 {
+    background: url("https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/fundo-card-1.jpg?raw=true"); /* Corrigido de 'fundo' para 'background' */
+  }
+  
+  .fundo-2 {
+    background: url("https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/fundo-card-2.jpg?raw=true"); /* Corrigido de 'fundo' para 'background' */
+  }
+  
+  .fundo-3 {
+    background: url("https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/fundo-card-3.jpg?raw=true"); /* Corrigido de 'fundo' para 'background' */
+  }
+  
+  .cartao .informacoes {
+    background-color: rgba(179,177,185,0.7); /* Corrigido de 'cor de fundo' para 'background-color' */
+    display: flex; /* Corrigido de 'exibição' para 'display' */
+    align-items: center; /* Corrigido de 'alinhar-itens' para 'align-items' */
+    justify-content: space-between; /* Corrigido de 'justificar-conteúdo' para 'justify-content' */
+    border-top-left-radius: 8px; /* Corrigido de 'raio-superior-esquerdo-da-borda' para 'border-top-left-radius' */
+    border-top-right-radius: 8px; /* Corrigido de 'raio-superior-direito-da-borda' para 'border-top-right-radius' */
+    padding: 5px 10px; /* Corrigido de 'preenchimento' para 'padding' */
+  }
+  
+  .cartao .informacoes .nome {
+    color: #fff; /* Corrigido de 'cor' para 'color' */
+    font-size: 20px; /* Corrigido de 'tamanho da fonte' para 'font-size' */
+  }
+  
+  .cartao .informacoes .ano {
+    background-color: #333; /* Corrigido de 'cor de fundo' para 'background-color' */
+    color: #fff; /* Corrigido de 'cor' para 'color' */
+    font-size: 12px; /* Corrigido de 'tamanho da fonte' para 'font-size' */
+    border-radius: 15px; /* Corrigido de 'raio da borda' para 'border-radius' */
+    padding: 6px 10px; /* Corrigido de 'preenchimento' para 'padding' */
+  }
+  
+  .cartao .img-jujutsu {
+    max-width: 100%; /* Corrigido de 'largura máxima' para 'max-width' */
+    max-height: 220px; /* Corrigido de 'altura máxima' para 'max-height' */
+    padding: 15px 5px 5px 5px; /* Corrigido de 'preenchimento' para 'padding' */
+  }
+  
+  .cartao .descricao {
+    background: rgba(255,255,255,0.8); /* Corrigido de 'fundo' para 'background' */
+    border-bottom-left-radius: 8px; /* Corrigido de 'raio-da-borda-inferior-esquerda' para 'border-bottom-left-radius' */
+    border-bottom-right-radius: 8px; /* Corrigido de 'raio-da-borda-inferior-direita' para 'border-bottom-right-radius' */
+  }
+  
+  .cartao .descricao .titulo{
+      background-color: #333; 
+      color: #f1ecff; 
+      font-size: 15px; 
+      padding: 10px; 
+  } 
+  

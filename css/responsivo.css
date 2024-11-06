@@ -1,0 +1,37 @@
+@media (max-width: 620px) {
+    .principal {
+        padding: 0 15px; 
+        margin: 10px; 
+    }
+
+    .btn-seta {
+        width: 20px; 
+        height: 20px; 
+        padding: 20px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .lista-jujutsu {
+        height: 480px; /* Corrigido de 'altura' para 'height' */
+    }
+
+    .cartao {
+        height: 480px; /* Corrigido de 'altura' para 'height' */
+    }
+
+    .cartao .img-card {
+        max-height: 250px; /* Corrigido de 'altura máxima' para 'max-height' */
+        margin: 20px 0; /* Corrigido de 'margem' para 'margin' e simplificado o valor */
+    }
+
+    .cartao .informacoes .nome {
+        max-width: 50%; /* Corrigido de 'largura máxima' para 'max-width' */
+        font-size: 14px; /* Corrigido de 'tamanho da fonte' para 'font-size' */
+    }
+
+    .cartao .informacoes .ano {
+        font-size: 10px; /* Corrigido de 'tamanho da fonte' para 'font-size' */
+    }
+}

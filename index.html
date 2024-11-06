@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/jujutsu%20icon.png?raw=true" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="text/javascript" src="js/script.js" defer></script>
+  <title>Cards Jujutsu Kaisen</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Jujutsu_kaisen_logo_fr.png?raw=true" alt="jujutsu kaisen">
+    <h1 class="titulo">BY LUDMILA DIAS</h1>
+  </header>
+
+  <main class="principal">
+    <button class="btn-seta btn-voltar" onclick="voltarpersonagem()">
+      <img src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/seta.png?raw=true" alt="seta voltar">
+    </button>
+    
+    <ul class="lista-jujutsu">
+      <li class="cartao selecionado fundo-1" id="cartaoyuji">
+        <div class="informacoes">
+          <h2 class="nome">Itadori Yuji</h2>
+          <p class="ano">GRAU 1</p>
+        </div>
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Yuji_Itadori__Anime_2_.png?raw=true" alt="Itadori Yuji">
+        </div> 
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto-desc">Um jovem que vivia uma vida comum até que certo dia tudo muda após perder seu avô e encontrar um dos 20 dedos do Rei das Maldições, Ryomen Sukuna, e acabar ingerindo este dedo para salvar seus amigos. Depois de se tornar o receptáculo de Sukuna, Yuji começou a frequentar o 1º ano na escola Jujutsu de Tokyo. Ele possui uma enorme destreza física, além de força e velocidade notáveis para um humano comum. </p>
+        </div> 
+      </li> 
+      
+      <li class="cartao fundo-2" id="cartaonobara">
+        <div class="informacoes">
+          <h2 class="nome">Nobara Kugisaki</h2>
+          <p class="ano">GRAU 3</p>
+        </div>
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Nobara_Kugisaki__Anime_2_.png?raw=true" alt="Nobara Kugisaki">
+        </div> 
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto-desc">Nobara ingressa na escola jujutsu com o objetivo simples de deixar o interior para morar em Tóquio. Dona de uma técnica amaldiçoada voltada para o jujutsu clássico, ela utiliza um martelo, pregos e um boneco de palha para realizar seus feitiços. Com a “Técnica do Boneco de Palha”, usando martelo e pregos, Nobara consegue transmitir sua própria energia amaldiçoada onde seus ataques atingem, gerando fluxos explosivos de energia. </p>
+        </div> 
+      </li> 
+
+      <li class="cartao fundo-3" id="cartaomegumi">
+        <div class="informacoes">
+          <h2 class="nome">Megumi Fushiguro</h2>
+          <p class="ano">GRAU 2</p>
+        </div>
+
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Megumi_Fushiguro__Anime_2__1.png?raw=true" alt="Megumi Fushiguro">
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto-desc">Megumi entrou no Jujutsu como feiticeiro de grau 2 e é considerado como tendo alto potencial por Noritoshi Kamo, Mai Zenin, Satoru Gojo e até mesmo Sukuna. O personagem tem grande domínio de sua energia amaldiçoada. Sua técnica amaldiçoada permite que ele invoque criaturas conhecidas como Shikigamis, moldadas a partir de sua energia. </p>
+        </div> 
+
+      </li> 
+
+      <li class="cartao fundo-1" id="cartaopanda">
+        <div class="informacoes">
+          <h2 class="nome">Panda</h2>
+
+          <p class="ano">SEMI-GRAU 2</p>
+        </div>
+
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Panda__Anime_2_.png?raw=true" alt="Panda">
+        </div> 
+
+        <div class="descricao">
+
+          <h3 
+          class="titulo">Descrição</h3>
+
+          <p class="texto-desc">Panda é um feiticeiro de grau 2 e um feiticeiro amaldiçoado com mutação abrupta, o mais avançado de sua espécie. Com uma afinidade natural com o jujutsu, Panda é capaz de exorcizar maldições com base apenas em suas habilidades físicas. Ele é muito inteligente e capaz de pensar um passo à frente de seus oponentes em uma luta. </p>
+
+        </div> 
+
+      </li> 
+
+      <li class="cartao fundo-2" id="cartaoinumaki">
+        <div class="informacoes">
+
+          <h2 class="nome">Toge Inumaki</h2>
+        
+          <p class="ano">SEMI-GRAU 1</p>
+        </div>
+
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Toge_Inumaki__Anime_2_.png?raw=true" alt="Toge Inumaki">
+        </div> 
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto-desc">Como um membro da família Inumaki, Toge é do 2º ano e é um feiticeiro respeitado semi-grau 1. Sua técnica amaldiçoada e habilidade atlética lhe renderam uma forte reputação entre os alunos e até mesmo Geto acreditava que ele era um feiticeiro abençoado com grande potencial. Toge é altamente inteligente, com alta resistência e também um conhecimento especializado de como manejar sua poderosa técnica amaldiçoada. </p>
+        </div> 
+
+      </li> 
+
+      <li class="cartao fundo-3" id="cartaomaki">
+        <div class="informacoes">
+          <h2 class="nome">Maki Zen</h2>
+          <p class="ano">GRAU 4</p>
+        </div>
+
+        <div class="img-card">
+          <img class="img-jujutsu" src="https://github.com/luddias/JujutsuKaisenCards-Website/blob/main/img/Maki_Zen_in__Anime_.png?raw=true" alt="Maki Zen">
+        </div> 
+        
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto-desc">Originária da família Zenin, Maki saiu sozinha devido a ser rejeitada por sua falta de energia amaldiçoada. A classificação de feiticeiro Grau 
+        </div>
+
+  
+</body>
